@@ -1,0 +1,36 @@
+.entrypage {
+    height: calc(100vh - 56px);
+    flex-direction: column;
+}
+
+.entrypage_header {
+    font-size: 4rem;
+    color: #013437;
+}
+
+.entrypage_para {
+    font-size: 1.2rem;
+}
+
+.entrypage_btnContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 4rem;
+}
+
+.entrypage_btnContainer p {
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    gap: 5px;
+    color: #013437;
+}
+
+.entrypage_btnContainer p::before,
+.entrypage_btnContainer p::after {
+    display: block;
+    content: "";
+    width: 100%;
+    border-top: 1px solid #013437;
+}

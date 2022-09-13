@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #004346;
+    padding: 0.5rem 2rem;
+    position: sticky;
+    top: 0;
+}
+
+.appLogo {
+    aspect-ratio: 1;
+    width: 40px;
+}
+
+.appName {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
